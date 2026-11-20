@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk | Priangan Automotive Glass</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header id="fawwaz_header">
+    <p class="fawwaz_logo">Priangan Automotive Glass</p>
+    <p class="fawwaz_slogan">Produksi Kaca Mobil dan Bengkel Kaca Mobil</p>
+  </header>
+
+  <nav class="fawwaz_menu">
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="produk.html" class="fawwaz_aktif">Produk</a></li>
+      <li><a href="layanan.html">Layanan</a></li>
+      <li><a href="tentang.html">Tentang</a></li>
+      <li><a href="booking.html">Booking Bengkel</a></li>
+      <li><a href="pesan.html">Pesan Kaca</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <main id="isi">
+
+    <h1>Produk Kaca Mobil</h1>
+    <p>
+      Semua kaca diproduksi di pabrik kami sesuai tipe mobil.
+      Harga di bawah adalah <strong>perkiraan awal</strong> dan dapat berbeda
+      menurut merek dan tipe mobil.
+    </p>
+
+    <section>
+      <h2>Daftar Produk</h2>
+      <div class="fawwaz_tabel">
+        <table>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Kode</th>
+              <th>Nama Produk</th>
+              <th>Posisi</th>
+              <th>Harga</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>KCA-001</td>
+              <td>Kaca depan laminasi</td>
+              <td>Depan</td>
+              <td>Rp 1.200.000</td>
+              <td><a href="pesan.html?produk=KCA-001">Pesan</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>KCA-002</td>
+              <td>Kaca depan anti UV</td>
+              <td>Depan</td>
+              <td>Rp 1.500.000</td>
+              <td><a href="pesan.html?produk=KCA-002">Pesan</a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>KCA-003</td>
+              <td>Kaca pintu depan</td>
+              <td>Samping</td>
+              <td>Rp 450.000</td>
+              <td><a href="pesan.html?produk=KCA-003">Pesan</a></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>KCA-004</td>
+              <td>Kaca pintu belakang</td>
+              <td>Samping</td>
+              <td>Rp 400.000</td>
+              <td><a href="pesan.html?produk=KCA-004">Pesan</a></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>KCA-005</td>
+              <td>Kaca belakang defogger</td>
+              <td>Belakang</td>
+              <td>Rp 850.000</td>
+              <td><a href="pesan.html?produk=KCA-005">Pesan</a></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>KCA-006</td>
+              <td>Kaca atap panoramik</td>
+              <td>Atap</td>
+              <td>Rp 2.000.000</td>
+              <td><a href="pesan.html?produk=KCA-006">Pesan</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Pilih Produk</h2>
+
+      <form action="pesan.html" method="get">
+        <fieldset class="fawwaz_fieldset">
+          <legend>Produk yang diminati</legend>
+          <p>
+            <label for="produk">Produk</label>
+            <select id="produk" name="produk" required>
+              <option value="">-- Pilih produk --</option>
+              <optgroup label="Depan">
+                <option value="KCA-001">Kaca depan laminasi</option>
+                <option value="KCA-002">Kaca depan anti UV</option>
+              </optgroup>
+              <optgroup label="Samping">
+                <option value="KCA-003">Kaca pintu depan</option>
+                <option value="KCA-004">Kaca pintu belakang</option>
+              </optgroup>
+              <optgroup label="Belakang">
+                <option value="KCA-005">Kaca belakang defogger</option>
+              </optgroup>
+              <optgroup label="Atap">
+                <option value="KCA-006">Kaca atap panoramik</option>
+              </optgroup>
+            </select>
+          </p>
+
+          <p>
+            <label for="jumlah">Jumlah</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" max="10" value="1" required>
+          </p>
+        </fieldset>
+
+        <button type="submit" class="fawwaz_tombol">Lanjut Pesan</button>
+        <button type="reset" class="fawwaz_tombol fawwaz_tombol2">Hapus Isian</button>
+      </form>
+    </section>
+
+    <aside class="fawwaz_info">
+      <h2>Tipe mobil Anda tidak ada?</h2>
+      <p>Hubungi kami di 0821-2497-2947. Kami dapat memproduksi kaca sesuai ukuran.</p>
+    </aside>
+  </main>
+
+  <footer id="fawwaz_footer">
+    <p>
+      <small>&copy; 2026 Priangan Automotive Glass | Jl. Perintis Kemerdekaan No. 10, Tasikmalaya | 0821-2497-2947</small>
+    </p>
+  </footer>
+<script src="js/script.js"></script>
+</body>
+
+</html>
