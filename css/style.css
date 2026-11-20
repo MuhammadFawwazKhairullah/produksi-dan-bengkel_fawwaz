@@ -1,0 +1,527 @@
+* {
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  color: #22226e;
+  background-color: #eef1f6;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Barlow Condensed', Arial, sans-serif;
+  color: #1b1b8f;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a:link {
+  color: #1b1b8f;
+}
+
+a:visited {
+  color: #6b21a8;
+}
+
+a:hover {
+  color: #1a8fe3;
+}
+
+a:active {
+  color: #0b5fa6;
+}
+
+:focus {
+  outline: 3px solid #1a8fe3;
+  outline-offset: 2px;
+}
+
+.fawwaz_clear {
+  clear: both;
+}
+
+.fawwaz_lewati {
+  display: block;
+  padding: 6px 20px;
+  background-color: #15156e;
+  font-size: 0.9rem;
+}
+
+.fawwaz_lewati:link,
+.fawwaz_lewati:visited,
+.fawwaz_lewati:hover,
+.fawwaz_lewati:active {
+  color: #fff;
+}
+
+#fawwaz_header {
+  float: left;
+  width: 38%;
+  height: 100px;
+  background-color: #fff;
+  padding: 14px 20px;
+  border-bottom: 1px solid #dbe2ee;
+}
+
+.fawwaz_logo {
+  margin: 0;
+  font-family: 'Barlow Condensed', Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1b1b8f;
+}
+
+.fawwaz_slogan {
+  margin: 0;
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
+.fawwaz_menu {
+  float: right;
+  width: 62%;
+  height: 100px;
+  padding: 48px 12px 0 0;
+  background-color: #fff;
+  border-bottom: 1px solid #dbe2ee;
+  overflow: hidden;
+}
+
+.fawwaz_menu ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.fawwaz_menu li {
+  float: left;
+}
+
+.fawwaz_menu a {
+  display: block;
+  padding: 12px 12px;
+  font-size: 0.9rem;
+  color: #1f2937;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+.fawwaz_menu a:hover,
+.fawwaz_menu a.fawwaz_aktif {
+  color: #1a8fe3;
+  border-bottom-color: #1a8fe3;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+  clear: both;
+}
+
+.fawwaz_kolom2 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.fawwaz_kolom3 {
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+}
+
+.fawwaz_info {
+  background-color: #fff;
+  border: 2px solid #b9d4f4;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.fawwaz_isi_samping {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+
+.fawwaz_isi_utama {
+  width: 75%;
+  float: left;
+  padding: 10px;
+}
+
+.fawwaz_isi_samping ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fawwaz_isi_samping a {
+  display: block;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  background-color: #fff;
+  border-left: 4px solid #b9d4f4;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.fawwaz_isi_samping a:hover {
+  border-left-color: #1a8fe3;
+}
+
+.fawwaz_blok {
+  background-color: #fff;
+  border: 1px solid #dbe2ee;
+  border-left: 8px solid #1a8fe3;
+  padding: 8px 20px;
+  margin-bottom: 16px;
+}
+
+.fawwaz_hero {
+  max-width: 960px;
+  margin: 20px auto 0;
+  overflow: hidden;
+  background-color: #fff;
+  border-left: 8px solid #1a8fe3;
+}
+
+main .fawwaz_hero {
+  margin: 0 0 20px;
+}
+
+.fawwaz_hero_teks {
+  width: 55%;
+  float: left;
+  padding: 24px;
+}
+
+.fawwaz_hero_gambar {
+  width: 45%;
+  float: left;
+  padding: 24px 24px 24px 0;
+}
+
+.fawwaz_foto_latar {
+  background-image: url('../image/mobil.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.fawwaz_lapisan {
+  background-color: rgba(21, 21, 110, 0.6);
+  padding: 48px 32px;
+  min-height: 340px;
+}
+
+.fawwaz_lapisan h1,
+.fawwaz_lapisan p {
+  max-width: 560px;
+  color: #fff;
+}
+
+.fawwaz_tombol {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #0b78d1;
+  border: 0;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+.fawwaz_tombol:link,
+.fawwaz_tombol:visited,
+.fawwaz_tombol:hover,
+.fawwaz_tombol:active {
+  color: #fff;
+}
+
+.fawwaz_tombol:hover {
+  background-color: #095fa6;
+}
+
+.fawwaz_tombol2 {
+  background-color: #1b1b8f;
+}
+
+.fawwaz_tombol2:hover {
+  background-color: #12126b;
+}
+
+.fawwaz_tombol.fawwaz_tombol_putih {
+  background-color: #fff;
+}
+
+.fawwaz_tombol.fawwaz_tombol_putih:link,
+.fawwaz_tombol.fawwaz_tombol_putih:visited,
+.fawwaz_tombol.fawwaz_tombol_putih:hover,
+.fawwaz_tombol.fawwaz_tombol_putih:active {
+  color: #1b1b8f;
+}
+
+.fawwaz_tabel {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #cbd5e1;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #1b1b8f;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f5fc;
+}
+
+.fawwaz_kartu_tabel {
+  border-collapse: separate;
+  border-spacing: 16px 0;
+  margin: 0 -16px;
+  width: calc(100% + 32px);
+}
+
+.fawwaz_kartu_tabel th {
+  background-color: #f4f7fc;
+  color: #1b1b8f;
+  font-family: 'Barlow Condensed', Arial, sans-serif;
+  font-size: 1.25rem;
+  padding: 16px 20px;
+  border: 1px solid #dbe2ee;
+  border-radius: 12px 12px 0 0;
+}
+
+.fawwaz_kartu_tabel td {
+  background-color: #fff;
+  padding: 16px 20px;
+  border: 1px solid #dbe2ee;
+  border-top: 0;
+  border-radius: 0 0 12px 12px;
+  vertical-align: top;
+}
+
+.fawwaz_kartu_tabel p {
+  margin: 0 0 12px;
+}
+
+.fawwaz_kartu_tabel a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.fawwaz_kartu {
+  background-color: #fff;
+  border: 1px solid #dbe2ee;
+  border-top: 6px solid #1a8fe3;
+  padding: 16px;
+}
+
+.fawwaz_kartu h3 {
+  margin: 0 0 8px;
+}
+
+.fawwaz_kartu p {
+  margin: 0 0 8px;
+}
+
+.fawwaz_tabel_menu {
+  margin: 8px 0 12px;
+}
+
+.fawwaz_tabel_menu td {
+  border: 0;
+  border-bottom: 1px dotted #94a3b8;
+  padding: 10px 4px;
+}
+
+.fawwaz_tabel_menu tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.fawwaz_tabel_menu td:last-child {
+  text-align: right;
+  font-weight: 700;
+  color: #1a8fe3;
+  white-space: nowrap;
+}
+
+.fawwaz_tabel_menu small {
+  color: #4b5563;
+}
+
+.fawwaz_fieldset {
+  border: 1px solid #b9d4f4;
+  border-radius: 12px;
+  margin: 0 0 16px;
+  padding: 0 24px 8px;
+  background-color: #fff;
+  max-width: 560px;
+}
+
+.fawwaz_fieldset legend {
+  float: left;
+  width: calc(100% + 48px);
+  margin: 0 -24px 16px;
+  padding: 12px 24px;
+  background-color: #f4f7fc;
+  border-bottom: 1px solid #dbe2ee;
+  border-radius: 12px 12px 0 0;
+  font-weight: 700;
+  color: #1b1b8f;
+}
+
+.fawwaz_fieldset legend + * {
+  clear: both;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+  font: inherit;
+  max-width: 100%;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+input[type='number'],
+input[type='date'],
+select,
+textarea {
+  width: 100%;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  width: auto;
+}
+
+.fawwaz_form_kartu {
+  padding-bottom: 20px;
+}
+
+.fawwaz_form_kartu legend {
+  font-family: 'Barlow Condensed', Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+.fawwaz_form_kartu label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.fawwaz_form_kartu p {
+  margin: 0 0 16px;
+}
+
+.fawwaz_form_kartu textarea {
+  resize: vertical;
+}
+
+.fawwaz_form_kartu .fawwaz_form_tombol {
+  margin: 4px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid #dbe2ee;
+}
+
+#fawwaz_terima {
+  display: none;
+  background-color: #fff;
+  border: 2px solid #b9d4f4;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+#fawwaz_terima:target {
+  display: block;
+}
+
+#fawwaz_footer {
+  background-color: #15156e;
+  text-align: center;
+  padding: 14px;
+  clear: both;
+}
+
+#fawwaz_footer small {
+  color: #dbe7ff;
+}
+
+@media (max-width: 700px) {
+  #fawwaz_header,
+  .fawwaz_menu {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .fawwaz_menu {
+    padding: 0;
+  }
+
+  .fawwaz_menu ul {
+    float: none;
+    width: 100%;
+  }
+
+  .fawwaz_menu li {
+    float: none;
+  }
+
+  .fawwaz_kolom2,
+  .fawwaz_kolom3,
+  .fawwaz_isi_samping,
+  .fawwaz_isi_utama {
+    width: 100%;
+  }
+
+  .fawwaz_lapisan {
+    padding: 32px 20px;
+    min-height: 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
